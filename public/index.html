@@ -46,6 +46,12 @@
     </style>
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 
+    <!-- Mail chimp -->
+    <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } 
+    </style>
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -55,17 +61,17 @@
 
     <script type="text/javascript">
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-37229861-1']);
-	  _gaq.push(['_trackPageview']);
+  	  var _gaq = _gaq || [];
+  	  _gaq.push(['_setAccount', 'UA-37229861-1']);
+  	  _gaq.push(['_trackPageview']);
 
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
+  	  (function() {
+  	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  	  })();
 
-	</script>
+	   </script>
   </head>
 
 
@@ -86,14 +92,28 @@
 
       <div class="jumbotron">
         <h1>The Avenue Delicatessen</h1>
-		<h2>in Lansdowne, PA</h2>
-		<h2>Coming Spring 2013</h2>
+    		<h2>in Lansdowne, PA</h2>
+    		<h2>Coming Spring 2013</h2>
 
-    <br />
+        <br />
 
-		<a href="https://twitter.com/TheAvenueDeli" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheAvenueDeli</a>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <!-- Twitter button -->
+    		<a href="https://twitter.com/TheAvenueDeli" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @TheAvenueDeli</a>
+    	   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
+
+      <hr />
+
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+      <form action="http://theavenuedeli.us6.list-manage.com/subscribe/post?u=b7988a8324dbcf38b098ec4aa&amp;id=f17f2307c3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <label for="mce-EMAIL">Please subscribe to our mailing list</label>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </form>
+      </div>
+      <!--End mc_embed_signup-->
+
 
       
 
@@ -121,11 +141,11 @@
         </div>
       </div> -->
 
-      <!-- <hr>
+      <hr>
 
       <div class="footer">
         <p>&copy; The Avenue Delicatessen 2012</p>
-      </div> -->
+      </div> 
 
     </div> <!-- /container -->
 
